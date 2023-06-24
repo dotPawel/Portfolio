@@ -8,15 +8,13 @@
         <center>
             <h1 style="font-size:60px">dotPaweł</h1>
             <p>Amateur C# developer from Poland</p>
-            
-            <table style="border-spacing:20px;">
-            <tr>
-                <td><a href="https://github.com/dotPawel/UniversalCMD"><img src="images/unicmd.svg" alt="UniversalCMD" height="40" width="40"/></a></td>
-                <td><a href="https://github.com/dotPawel"><img src="images/github.svg" alt="My GitHub" height="40"/></td>
-                <td><img src="images/discord.svg" alt="My Discord" height="40" width="40" onclick="CopyDiscord()"/></a></td>
-                <td><img src="images/matrix.svg" alt="My GitHub" height="40" width="40" onclick="CopyMatrix()"/></a></td>
-            </tr>
-            </table>
+
+            <ul>
+                <li><a href="https://github.com/dotPawel/UniversalCMD"><img src="images/unicmd.svg" alt="UniversalCMD" height="40" width="40"/></a></li>
+                <li><a href="https://github.com/dotPawel"><img src="images/github.svg" alt="My GitHub" height="40" width="40"/></a></li>
+                <li><img src="images/discord.svg" alt="My Discord" height="40" width="40" onclick="CopyDiscord()"/></a></li>
+                <li><img src="images/matrix.svg" alt="My GitHub" height="40" width="40" onclick="CopyMatrix()"/></a></li>
+            </ul>
         </center>
     </body>
 
@@ -25,10 +23,10 @@
 <script>
     function CopyDiscord() {
         alert("Copied to clipboard");
-        navigator.clipboard.writeText("dotPaweł#8482");  
+        navigator.clipboard.writeText("@dotpawel");  
     }
     function CopyMatrix() {
-        alert("Copied to clipboard");
+        alert("Copied to clipboard\n(I dont use matrix much anymore so if you want to contact me use discord)");
         navigator.clipboard.writeText("@dotpawelek:matrix.org");  
     }
 </script>
